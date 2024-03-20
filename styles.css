@@ -1,0 +1,135 @@
+body {
+    background-color: rgb(198, 195, 195);
+    padding: 0 50px;
+}
+/* Navegacion aqui abajo */
+header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav img {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.nav__item {
+    margin-left: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: rgb(76, 76, 76);
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    justify-content: center;
+    background-color: white;
+    
+}
+
+.menu button {
+    border: none;
+    background-color: white;
+    padding: 10px;
+}
+
+.menu button:hover {
+    color: green;
+    border: 3px solid;
+    border-color: green;
+}
+
+.crumbs {
+    margin: 20px 0;
+}
+
+.filtros {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px;
+}
+.filtros button {
+    background-color: rgb(0, 214, 0);
+    padding: 15px;
+    border: none;
+    color: rgb(255, 253, 253);
+}
+
+.gallery {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-item {
+    width: 40%;
+    background-color: white;
+    margin: 20px;
+}
+
+.gallery-item img {
+    width: 100%;
+}
+
+.gallery-item p {
+    color: gray;
+}
+
+.gallery-item h1 {
+    color: green;
+}
+
+.gallery-item button {
+    border: 1px solid green;
+    margin: 20px;
+    color: green;
+    background-color: white;
+    font-size: large;
+    padding: 10px;
+}
+
+.gallery-item__body {
+    margin: 25px;
+}
+
+.gallery-item__footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.oferta {
+    margin: 50px;
+    padding: 20px;
+    background-color: white;
+}
+
+.anuncios {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+    gap: 20px;
+}
+
+.anuncios img {
+    width: 30%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
